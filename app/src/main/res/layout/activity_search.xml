@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/button_border">
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="SEARCH FOR BLOOD"
+            android:background="@drawable/text_border"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="15dp"/>
+
+        <Button
+            android:id="@+id/Search_blood_group"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="135dp"
+            android:background="@drawable/button_border"
+            android:text="Search By Blood Group"
+            android:textStyle="bold"/>
+
+        <Button
+
+            android:id="@+id/Search_address"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_border"
+            android:text="Search By Address"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

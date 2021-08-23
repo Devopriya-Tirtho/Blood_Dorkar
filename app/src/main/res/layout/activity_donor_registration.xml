@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/sign_up">
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_border"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:text="DONOR REGISTRATION FORM"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#e4dddd"
+            android:padding="10dp"/>
+
+        <TextView
+
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginVertical="5dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/text_border"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:hint="FULLNAME"
+            android:textStyle="bold"
+
+            />
+        <TextView
+
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:text="Blood Group"
+            android:textColor="#120000"
+            android:textSize="20dp"
+            android:layout_marginVertical="2dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/bloodgroup"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/text_border"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:hint="BLOOD GROUP"
+            android:textStyle="bold"
+
+            />
+        <TextView
+
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textColor="#120000"
+            android:textSize="20dp"
+            android:layout_marginVertical="2dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/text_border"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:hint="AGE"
+            android:textStyle="bold"
+
+            />
+        <TextView
+
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS"
+            android:textColor="#120000"
+            android:textSize="20dp"
+            android:layout_marginVertical="2dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/text_border"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:hint="ADDRESS"
+            android:textStyle="bold"
+
+            />
+        <TextView
+
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:text="PHONE NUMBER"
+            android:textColor="#120000"
+            android:textSize="20dp"
+            android:layout_marginVertical="2dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/text_border"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:hint="PHONE NUMBER"
+            android:textStyle="bold"
+
+            />
+        <Button
+            android:id="@+id/submit"
+
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="SUBMIT"
+            android:background="@drawable/button_border"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

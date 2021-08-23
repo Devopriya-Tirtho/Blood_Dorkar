@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/button_border">
+
+
+        <EditText
+            android:id="@+id/S_bloodgrp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/text_border"
+            android:hint="Search By Blood Group"
+            android:textStyle="bold"/>/>
+
+        <Button
+
+            android:id="@+id/Search"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_border"
+            android:text="Search"
+            android:textStyle="bold"/>
+
+
+        <TextView
+
+            android:id="@+id/display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="15dp"/>
+
+
+
+        />
+    </LinearLayout>
+
+</LinearLayout>
