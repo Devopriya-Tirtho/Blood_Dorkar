@@ -1,4 +1,4 @@
-# Blood Dorkar
+# Blood Dorkar – A Platform for Blood Donation Management
 The name 'Blood Dorkar' relates to the necessity for the blood of a certain group. This project was created with the understanding that the need for blood might be challenging at times. The major goal of this project is to assist mankind as well as create an Android application. This project is an Android app with the following features:
 1. User Login
 2. Admin Login
